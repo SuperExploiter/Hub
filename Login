@@ -80,7 +80,7 @@ local function JUDYRF_fake_script()
 			sound:Play()
 			wait(0.1)
 		game.CoreGui.LoginGui:Remove()
-			loadstring(game:HttpGet("https://raw.githubusercontent.com/SuperExploiter/Petsimx/main/Script.lua"))()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/Wumat3k/robloxhub/main/script.lua"))()
 		end
 		if script.Parent.Parent.Username.Text == "bwergwergwrgr" and script.Parent.Parent.Password.Text == "bwergwergwergwergwerg" then
 			local sound = Instance.new("Sound", game.Workspace)
