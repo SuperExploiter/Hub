@@ -109,14 +109,14 @@ local function JUDYRF_fake_script()
 	game.CoreGui.LoginGui:Remove()
 			loadstring(game:HttpGet(LoginLoadstring,true))()
 		end
-		if script.Parent.Parent.Username.Text == "Xester" and script.Parent.Parent.Password.Text == "pro" then
+		if script.Parent.Parent.Username.Text == "bedwars" and script.Parent.Parent.Password.Text == "12345" then
 			local sound = Instance.new("Sound", game.Workspace)
 			sound.SoundId = "rbxassetid://2027986581"
 			sound.Looped = false
 			sound:Play()
 			wait(0.1)
 	game.CoreGui.LoginGui:Remove()
-		loadstring(game:HttpGet(LoginLoadstring,true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 		else
 			local sound1 = Instance.new("Sound", game.Workspace)
 			sound1.SoundId = "rbxassetid://130840811"
